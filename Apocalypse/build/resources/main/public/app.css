@@ -32,6 +32,7 @@ body {
 
 body {
   font: 14px/1.4 arial;
+  cursor: url('http://www.rw-designer.com/cursor-view/29107.png'), default;
 }
 
 .imgWrap {
@@ -59,4 +60,5 @@ body {
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
+  cursor: url('http://www.rw-designer.com/cursor-view/59707.png'), default;
 }
