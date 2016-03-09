@@ -10,12 +10,40 @@ body {
   min-height: 100%
 }
 
+.navbar {
+  color: #E1DB91;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,b2a874+52,e1db91+73 */
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(left,  #000000 0%, #b2a874 52%, #e1db91 73%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #000000 0%,#b2a874 52%,#e1db91 73%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #000000 0%,#b2a874 52%,#e1db91 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e1db91',GradientType=1 ); /* IE6-9 */
+}
+
+header h1 {
+  font-family: 'Geostar Fill', 'sans-serif';
+}
+
+header h1:first-letter{
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
 .content {
   background: rgba(0, 0, 0, 0.8);
   color: #E1DB91;
   border-radius: 2px;
   padding: 15px;
   margin-top: 15px;
+}
+
+header img {
+  float: left;
+  height: 90%;
+  width: 50px;
+  padding-top: 30px;
+  padding-left: 15px;
 }
 
 .stats {
@@ -32,7 +60,7 @@ body {
 
 body {
   font: 14px/1.4 arial;
-  cursor: url('http://www.rw-designer.com/cursor-view/29107.png'), default;
+  /*cursor: url('http://www.rw-designer.com/cursor-view/29107.png'), default;*/
 }
 
 .imgWrap {
